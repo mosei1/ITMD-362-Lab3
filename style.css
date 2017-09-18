@@ -25,14 +25,13 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, {
+footer, header, hgroup, menu, nav {
 display: block;
 }
 
 body{
   font-family: serif;
   display: block;
-  background-color:;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
@@ -40,14 +39,15 @@ body{
 {
   display: block;
   width: 100%;
-  align: center;
 }
 h2{
   text-align: center;
-  font-size: 40px;
-
+  font-size: 60px;
+  font-weight: bold;
+  color:#ff6699;
+  font-family: fantasy;
   }
-  legend{
+legend{
   text-align: center;
   font-size: 2em;
 }
@@ -62,9 +62,5 @@ fieldset{
   letter-spacing: .5px;
   font-weight: 300;
   font-style: normal;
-  padding: 25px;
   margin: 25px;
-  border: 5px solid gray;
-  max-width: 500px;
-  margin: auto;
 }
