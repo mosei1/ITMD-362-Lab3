@@ -25,6 +25,29 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+footer, header, hgroup, menu, nav, {
+display: block;
+}
+
+body{
+  font-family: serif;
+  display: block;
+  background-color:;
+  font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.image-block img
+{
+  display: block;
+  width: 100%;
+  align: center;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+
+  }
+  legend{
+  text-align: center;
+  font-size: 2em;
 }
